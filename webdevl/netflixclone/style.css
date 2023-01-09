@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+}
+.header{
+background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('backgroundnetf.jpg');
+background-color:black;
+background-repeat: no-repeat;
+box-shadow: inset;
+filter:contrast(100%);
+max-height:100%;
+max-width: 100%;
+
+}
+.heading{
+filter: contrast(100%);
+color:white;
+text-align: center;
+font-size:7rem;
+margin-top:7.5rem;
+}
+.header h2{
+color:white;
+text-align: center;
+margin-top: 1rem;
+font-size: 3rem;
+padding: .5rem;
+}
+.header h3{
+color:white;
+text-align: center;
+margin-top: 2.5rem;
+font-size: 2rem;
+padding: .5rem;
+}
+.side{
+margin:2.7rem;
+}
+.sign{
+background-color: orangered;
+margin-right:.5rem;
+margin-top:.5rem;
+font-size:2rem;
+padding:1.2rem;
+color:white;
+border:.2rem solid black;
+border-radius: .5rem;
+}
+.optio{
+font-size:2rem;
+padding:1rem;
+background-color: black;
+color:white;
+margin-right:1.5rem;
+}
+.back{
+    width:20rem;margin:3rem;background-color:black; filter:contrast(100%);
+}
+.header .tex{
+margin-left:25%;}
+input[type='text']{
+width:40%;
+padding: 2.4rem;
+margin-top: 1.8rem;
+text-align: left;
+}
+.start{
+color:white;
+background-color:orangered;
+width:25%;
+font-size:1.8rem;
+padding:2.25rem;
+margin-left:-.5rem;
+margin-top:2rem;
+}
+@media screen and (max-width:430px){
+    html{
+        font-size:45%;
+    }
+    
+}
+@media screen and (max-width:750)
+{
+    html{
+font-size:55%;
+    }
+    .start,.tex{
+        margin:2rem;
+        max-width:100%;
+    }
+}

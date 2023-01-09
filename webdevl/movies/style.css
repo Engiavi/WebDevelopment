@@ -1,0 +1,49 @@
+.heading1:hover{
+    border-bottom: 4px solid black;
+}
+.heading1{
+    font-size: 20px;
+    color: black;
+}
+/* body{
+    background-color: red;
+} */
+.logo{
+    border-radius: 25%;
+}
+.nav2:hover{
+    border-bottom: 5px outset #ff4400;
+}
+.dropdown-item:hover{
+    border-left: 3px ridge red;
+}
+a{
+    border-style: none;
+}
+.lom{
+    background-image:url("image/com.png");
+    height: 920px;
+    /* width: 1000px; */
+    /* background-position:left bottom; */
+}
+.jk{
+    /* text-align: justify; */
+    display:flex;
+    justify-content:space-evenly;
+}
+.back{
+    background-image: url(image/background.jpg);
+    height: 320px;
+
+    color: white;
+}
+.pos{
+    background-color: white;
+  height: 50px;
+  margin-top: -40px;
+  margin-bottom:100px;
+}
+.mk{
+    list-style:none;
+}
+ 

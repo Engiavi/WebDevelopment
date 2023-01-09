@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <form>
+        
+        <fieldset>
+            
+            <div class="container">
+                <h1 style="color:red; margin-left:170px;margin-bottom:20px;opacity: 0.6;">Order Food Online</h1>
+                <span class="row">
+                    <span class="col-sm-3">
+                        <label for="fname" class="lef"><b>NAME:</b></label>
+                    </span>
+                    <!-- <span class="col-7"> -->
+                    <span class="rig">
+                        <input type="text" id="fname" REQUIRED placeholder="ENTER NAME">
+                    </span>
+                    <!-- </span> -->
+                    <BR>
+                </span>
+                <BR>
+                <span class="row">
+                    <span class="col-sm-3">
+                        <label for="dob"><b>Date:</b></label>
+                    </span>
+
+                    <span class="rig">
+                        <input type="date" id="dob" REQUIRED placeholder="Date:">
+                    </span>
+                    <BR>
+                </span>
+                <BR>
+                <span class="row">
+                    <span class="col-sm-3">
+                        <label for="EID" class="lef"><b>email ID:</b></label>
+                    </span>
+                    <span class="rig"><input type="email" id="EID" placeholder="ENTER Your Emailid"></span>
+                    <BR>
+                </span>
+                <BR>
+                <span class="row">
+                    <span class="col-sm-3">
+                        <label for="MOBILE" class="lef"><b>Contact Number:</b></label>
+                    </span>
+                    <span class="rig"><input type="tel" id="MOBILE" placeholder="ENTER CONTACT NO."
+                            maxlength="10"></span>
+                    <BR>
+                </span>
+                <BR>
+                <span class="row">
+                    <span class="col-sm-3">
+                        <label for="food"><b>Order Food:</b></label></span>
+
+                    <span class="rig"> <b>Non-vegeterian</b> <input type="radio" id="food">
+                        <b>Vegeterian</b> <input type="radio" id="food"></span>
+                    <BR>
+                </span>
+                <BR>
+                <span class="row">
+                    <span class="col-sm-3">
+                        <label for="gen" class="lef"><b>Book your Restaurants:</b></label>
+                    </span>
+                    <span class="rig"><select id="gen">
+                            <option>Select your Restaurant</option>
+                        </select>
+                    </span>
+                    <BR>
+                </span>
+                <BR>
+                <span class="row">
+                    <span class="col-sm-3">
+                        <label for="gen" class="lef"><b>Drink:</b></label>
+                    </span>
+                    <span class="rig"><select id="gen">
+                            <option>Select your Drink</option>
+
+                        </select></span>
+                    <BR>
+                </span>
+                <BR>
+                <span class="row">
+                    <span class="col-sm-3">
+                        <label for="gen" class="lef"><b>Soup:</b></label>
+                    </span>
+                    <span class="rig">
+                        <select id="gen">
+                            <option>Select the soup of your choice</option>
+
+                        </select></span>
+                    <BR>
+                </span>
+                <BR>
+                <span class="row">
+                    <span class="col-sm-3">
+                        <label for="gen" class="lef"><b>Dishes:</b></label>
+                    </span>
+                    <span class="rig"> <select id="gen">
+                            <option>Select the dishes of your choice</option>
+
+                        </select></span>
+                    <BR>
+                </span>
+                <BR>
+                <span class="row">
+                    <span class="col-sm-3">
+                        <label for="food" class="lef"><b>Order For:</b></label>
+                    </span>
+                    <span class="rig" style="text-align: center;"> <b>Take Away</b> <input type="radio" id="food">
+                        <b>Home Delivery</b> <input type="radio" id="food"></span>
+                    <BR>
+                </span>
+                <BR>
+                <span class="row">
+                    <span class="col-sm-3">
+                        <label for="fname"><b>Address:</b></label>
+                    </span>
+                    <span class="rig"><input type="text" id="fe" placeholder="ENTER Your Address here">
+                    </span>
+                    <BR>
+                </span>
+                <BR>
+                <span class="row">
+                    <span class="col-sm-3">
+                        <label for="fname" class="lef"><b>State:</b></label>
+                    </span>
+                    <span class="rig"> <input type="text" id="fname">
+                    </span>
+                    <BR>
+                </span>
+                <BR>
+
+                <input type="submit" style="margin:0 10px 50px 80px ;">
+                <input type="reset">
+            </div>
+        </fieldset>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

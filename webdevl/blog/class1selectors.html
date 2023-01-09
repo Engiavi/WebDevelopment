@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+       a:link{
+            color:aqua;
+        }
+        a:visited{
+            color:red;
+        }
+        a:hover{
+            color:hotpink;
+        }
+        a:active{
+            color:green;
+        }
+        a.hy:link{
+            color:aqua;
+        }
+        a.hy:visited{
+            color:black;
+        }
+        a.hy:hover{
+            color:blue;
+        } 
+        p{
+            background-color: green;
+            padding: 20px;
+        }
+        div:hover p{
+            display:block;
+            background-color: blue;
+        }
+        p:first-child{
+            color:rebeccapurple;
+        }
+        p i:first-child{
+            color:rebeccapurple;
+        }
+        p::first-line{
+            color: red;
+            font-variant: small-caps;
+        }
+        p::first-letter{
+            color:black;
+            font-variant:xx-large;
+        }
+        p.intro::first-letter{
+            color: brown;
+            font-size:200%;
+        }
+        h1::before{
+            content:url(fet.png);
+            height:10px;
+        }
+        h1::after{
+            content:"*";
+        }
+        ::marker{
+            color: red;
+            font-size: 23px;
+
+        }
+        .grid-container{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: auto auto auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <a href="https://www.google.co.in/">google</a>
+    <br>
+    <br>
+
+    <a href="https://www.google.co.in/" class="hy">GOOGLE</a>
+    <div>
+        <p>
+            good morning hey.
+        </p>
+    </div>
+    <p>
+        This is some text.<br>
+        
+    </p>
+    <p>
+        This is some text.
+    </p>
+    <div>
+            <p>This is some text.</p>
+            <br>
+<h1><p >This is some text.This is some text.This is some text.This is some text.This is some text.</p></h1>
+<p class="intro">This is some text.This is some text.This is some text.</p>
+
+<ul>
+    <li>cofee
+    </li>
+    <li>
+        tea
+    </li>
+</ul>
+<ol>
+    <li>cofee
+    </li>
+    <li>
+        tea
+    </li>
+</ol>   
+</body>
+</html>

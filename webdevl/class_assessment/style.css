@@ -1,0 +1,118 @@
+html{
+  font-size:60%;
+}
+
+
+.jk{
+    background-color: #f1f1f1;
+    /* padding:0 0 5rem 0; */
+    border-bottom:1rem solid #f1f1f1;
+    border-top:1rem solid #f1f1f1;
+}
+input[type='text']
+{
+    margin-left: 35%;
+    color: #f1f1f1;
+    opacity: 0.8;
+    font-size: 1.5rem;
+}
+.nav-link{
+  list-style-type:none;
+  color: rgb(149, 145, 145);
+  padding-left:10rem;
+}
+.nav-link:hover{
+  border-bottom:.3rem solid black;
+  color:black;
+}
+a{
+  margin-right:3rem;
+}
+.kol{
+  font-size:3.5rem;margin-bottom:3rem;
+}
+.bhar{
+  color:#30e8bd;opacity:0.8;margin-top:5rem;
+}
+.logf{
+  margin-right:3.5rem;
+}
+.qwe{
+  font-size:2rem;font-family: serif;
+}
+.back{
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  width:100%;
+  background-position:top right;
+  background-size:56%;
+   height:80rem;
+}
+.sidehead{
+margin:8rem 0 0 15rem;
+font-size: 3.5rem;
+}
+.para{
+color:rgb(149, 145, 145);
+font-size: 1.8rem;
+}
+.row{
+margin:10rem 0 0 13.5rem;
+}
+
+.outcontent{
+text-align:center;
+}
+.logo{
+margin:1.8rem 0 0 28rem;
+}
+.dot{
+padding-top:.5rem;
+
+}
+.dot1{
+height:1.5rem;
+width: 1.5rem;
+background-color: red;
+border-radius: 50%;
+display: inline-block;
+margin:0 .6rem 0 .6rem;
+}
+.dot2{
+height:1.5rem;
+line-height:1.5rem;
+width: 1.5rem;
+background-color: gold;
+border-radius: 50%;
+display: inline-block;
+margin-right:.6rem;
+}
+.dot3{
+height:1.5rem;
+width: 1.5rem;
+background-color: green;
+border-radius: 50%;
+display: inline-block;
+}
+.nav{
+width:40%;
+text-align:center;
+border:none;
+border-radius:.5rem;
+}
+.logo1{
+font-size:2rem;
+color:cyan;
+}
+.nb{
+margin-left:15%;
+right:5.5rem;
+}
+.qun{
+color:cyan;
+}
+@media screen and (max-width:820) {
+  html{
+    font-size:50%;
+  }
+}

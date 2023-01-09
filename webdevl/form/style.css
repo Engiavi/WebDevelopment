@@ -1,0 +1,22 @@
+form{
+    background-color:rgba(255, 251, 210, 0.888);
+    
+}
+body{
+    background-color: white;
+}
+/* fieldset{
+    border-style:none;
+    
+} */
+
+.rig{
+   
+    margin-left:-85px;
+}
+#fe{
+   max-width:auto;
+    height: 80px;
+}
+
+ 
